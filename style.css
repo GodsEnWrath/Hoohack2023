@@ -12,16 +12,15 @@
     background-repeat: no-repeat;
     background-position: center;
     align-items: center;
-    height: 70vh;
+    height: 65vh;
 }
 
 .header-text{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 25vh;
+    height: 35vh;
     background-color: #5B8865;
     align-items: center;
     color: white;
-    padding: 10px;
 }
 
 .quotes{
@@ -50,7 +49,10 @@
     align-items: center;
     background-color: white;
     color: white;
+    padding: 15px;
 }
+
+
 
 .weekly1{
     background-color: #4AA4B8;
@@ -63,8 +65,12 @@
 .contact-us{
     background-color: white;
     height: 20vh;
+    padding: 10px;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .github-img {
     width: 50px;
+    
 }

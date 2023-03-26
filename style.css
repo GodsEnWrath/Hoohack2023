@@ -233,3 +233,37 @@
     height: 30vh;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/* Weekly page end*/
+
+/* Monthly page*/
+.monthly-analysis1{
+    background-color: #1D3D3B;
+    align-items: center;
+    color: white;
+    height: 40vh;
+}
+
+.monthly-analysis2{
+    background-color: #497F76;
+    align-items: center;
+    color: white;
+    height: 20vh;
+}
+
+.monthly-analysis3{
+    background-color: #609687;
+    align-items: center;
+    color: white;
+    height: 20vh;
+}
+
+.divchart{
+    padding-top: 30px;
+    align-items: center;
+}
+
+.chartpie {
+    position: relative; 
+    height:55vh;
+}
+/* Monthly page end*/

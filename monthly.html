@@ -38,8 +38,6 @@
    <!--Navigation bar Load-->
    
     <!--Chart.js-->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
-   </script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.1.2/chart.umd.js">
    </script>
    <!--Chart.js-->
@@ -62,17 +60,47 @@
        <div id="nav-placeholder"> </div>
        <!--Navigation bar end-->
        
-       <div>
-           <h1 class="header-text" style="height: auto;">Monthly Analysis</h1>
-           <h2 class="quotes" style="height: auto;">This month, the university produced approximately <em>113,400</em>* lbs of food waste. This is a <em>~6.3</em>% decrease compared to last month.</h2>
-           <div style="position: relative; height:55vh;">
+       <div class="container-fluid">
+        <div class="row">
+          <div class="col d-flex justify-content-center text-center monthly-analysis1">
+            <h1> Monthly Analysis </h1> 
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col d-flex justify-content-center text-center monthly-analysis2">
+                <h1> March 2023 </h1> 
+            </div>
+        </div>
+        
+    
+        <div class="divchart">
+        <h2>This month, the university produced approximately <em>113,400</em>* lbs of food waste. This is a <em>~6.3</em>% decrease compared to last month.</h2>   
+        <div class="chartpie">
                <canvas id="pieChartID"></canvas>
-           </div>
-           <h5 class="quotes" style="height: auto;">*Calculated from <em>20,000</em> students, <em>800</em> faculty members</h5>
+               <h5>*Calculated from <em>20,000</em> students, <em>800</em> faculty members</h5>
+        </div>
+        </div>
+
+        <div class="row">
+            <div class="col d-flex justify-content-center text-center monthly-analysis3">
+                <h1> February 2023 </h1> 
+            </div>
+        </div>
+
+        <div class="divchart">
+            <h2>This month, the university produced approximately <em>120,544</em>* lbs of food waste. This is a <em>2</em>% decrease compared to last month.</h2>   
+            <div class="chartpie">
+                   <canvas id="pieChartID2"></canvas>
+                   <h5>*Calculated from <em>20,000</em> students, <em>800</em> faculty members</h5>
+            </div>
+            </div>
+           
        </div>
        
        <!--Food waste pie chart-->
        <script>
+        // <!--pie chart 1-->
            new Chart($("#pieChartID"), {
                type: 'pie',
                options: {
@@ -95,7 +123,31 @@
                    }]
                }
            });
+        // <!--pie chart 2  -->
+           new Chart($("#pieChartID2"), {
+               type: 'pie',
+               options: {
+                   legend: {
+                       display: true
+                   },
+                   indexAxis: 'x',
+                   title: {
+                       display: true,
+                       text: 'Food waste monthly pie chart'
+                   }
+               },
+               data: {
+                   labels: ["Week 1", "Week 2", "Week 3", "Week 4"],
+                   datasets: [{
+                       label: "Food Waste produced by Univsersity",
+                       backgroundColor: ["#5B8865", "#1D6C6C",
+                           "#5C7B51", "#4AA4B8"],
+                       data: [900, 300, 400, 200]
+                   }]
+               }
+           });
        </script>
        <!--Food waste pie chart-->
+
    </body>
 </html>

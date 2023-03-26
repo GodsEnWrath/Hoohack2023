@@ -7,10 +7,10 @@ This is a Website that collects information about food waste around campuses, th
 
 Our website will have: 
 
-To raise awareness: 
+To raise awareness
 - a monthly report of how much food is wasted each week.
 - a yearly report of how much food is wasted each month.
 
-To increase sustainability: 
+To increase sustainability
 - a voting system by student and staff for next weeks menu. 
 - data for office of sustainability to use to cut servings on unpopular meals and add servings in popular meals.

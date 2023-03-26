@@ -46,7 +46,7 @@
         }
 
         button {
-            background-color: #1D6C6C;
+            background-color: #46AFB0;
             color: white;
             padding: 14px 20px;
             margin: 8px 0;
@@ -69,17 +69,22 @@
     <!--Navigation bar end-->
 
     <!--Sign in form-->
-    <h4 class="header-text" style="height: auto;">Sign in to your account</h4>
-    <br>
+    <div class="container-fluid login">
+      <div class="row">
+        <div class="col d-flex justify-content-center text-center signin">
+          <h1> Sign In to your Account </h1> 
+        </div>
+      </div>
+          <br>
     <div style="text-align: center;">
         <img src="https://imgs.search.brave.com/fEPD4fT4QKnLvHsqWNRFlvtiZZzxqOSWOBRQqzbGNB8/rs:fit:1200:1200:1/g:ce/aHR0cDovL3BsdXNw/bmcuY29tL2ltZy1w/bmcvdXNlci1wbmct/aWNvbi1iaWctaW1h/Z2UtcG5nLTIyNDAu/cG5n" style="width: 20vh;">
     </div>
-    <form action="/action_page.php" method="post">
+    <form action="/index.html" method="href">
         <div class="container">
-            <label for="username" class="quotes" style="height: auto;"><b>Username</b></label>
+            <label style="height: auto;"><b>Username</b></label>
             <input type="text" placeholder="Enter Username" name="username" required>
             <br>
-            <label for="password" class="quotes" style="height: auto;"><b>Password</b></label>
+            <label style="height: auto;"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="password" required>
             <br>
             <span class="password"><a href="#">Forgot password?</a></span>
@@ -89,6 +94,9 @@
         </div>
     </form>
     <!--Sign in form-->
+
+
+  </div>
 </body>
 
 </html>

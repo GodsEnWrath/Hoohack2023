@@ -267,3 +267,80 @@
     height:55vh;
 }
 /* Monthly page end*/
+
+/* Login*/
+.signin{
+    background-color: #46AFB0;
+    align-items: center;
+    color: white;
+    height: 20vh;
+}
+
+.login{
+    padding-bottom: 50px;
+}
+/* Login end*/
+
+/* about us */
+.about-us {
+    background-color: #679C9C;
+    align-items: center;
+    color: white;
+    height: 40vh;
+}
+
+.yazid1 {
+    background-color: #A3AA77;
+    align-items: center;
+    color: white;
+    height: 60vh;
+}
+
+.yazid2 {
+    background-color: #7D8F77;
+    align-items: center;
+    color: white;
+    height: 60vh;
+}
+
+.yazid2 a{
+    color: inherit; 
+}
+
+.daniel1 {
+    background-color: #8CA4AE;
+    align-items: center;
+    color: white;
+    height: 50vh;
+}
+
+.daniel2 {
+    background-color: #5A8EA4;
+    align-items: center;
+    color: white;
+    height: 50vh;
+}
+
+.daniel2 a{
+    color: inherit; 
+}
+
+.tommy1 {
+    background-color: #1D699B;
+    align-items: center;
+    color: white;
+    height: 50vh;
+}
+
+.tommy2 {
+    background-color: #81CFC2;
+    align-items: center;
+    color: white;
+    height: 50vh;
+}
+
+.tommy2 a{
+    color: inherit; 
+}
+
+/* about us end*/

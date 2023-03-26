@@ -1,7 +1,17 @@
+/* All */
 * {
     margin: 0;
     padding: 0;
 }
+/* All end */
+
+/* Navbar */
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+/* Navbar end*/
 
 /* Home */
 .logo{
@@ -112,7 +122,42 @@
 
 /* Home end */
 
-.navbar-nav > li{
-    padding-left:30px;
-    padding-right:30px;
-  }
+
+/* Yearly / annual page */
+.yearly1{
+    background-color: #BFBFFF;
+    align-items: center;
+    color: white;
+    height: 40vh;
+}
+
+.yearly2{
+    background-color: #A3A3FF;
+    align-items: center;
+    color: white;
+    height: 20vh;
+}
+
+.yearly3{
+    background-color: #7879FF;
+    align-items: center;
+    color: white;
+    height: 20vh;
+}
+
+.yearly3 a { 
+    color: inherit; 
+} 
+
+.yearly4{
+    background-color: #4949FF;
+    align-items: center;
+    color: white;
+    height: 20vh;
+}
+
+.yearly4 a { 
+    color: inherit; 
+} 
+
+/* Yearly / annual page end*/

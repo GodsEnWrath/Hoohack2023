@@ -44,6 +44,17 @@
    </script>
    <!--Chart.js-->
     
+   <style>
+        h1, h2, h4 {
+            text-align: center;
+        }
+        canvas {
+            padding: 0;
+            margin: auto;
+            display: block;
+        }
+    </style>
+    
    </head>
    <body>       
 
@@ -52,9 +63,9 @@
        <!--Navigation bar end-->
        
        <div>
-           <h1>Monthly Analysis</h1>
-           <h2>This month, the university* produced approximately 113,400 lbs of food waste.</h2>
-           <h4>*Calculated from 20,000 students, 800 faculty members</h4>
+           <h1 style="background-color:black; color:white">Monthly Analysis</h1>
+           <h2>This month, the university produced approximately <em>113,400</em> lbs of food waste*</h2>
+           <h4>*Calculated from <em>20,000</em> students, <em>800</em> faculty members</h4>
            <div style="position: relative; height:75vh">
                <canvas id="pieChartID"></canvas>
            </div>

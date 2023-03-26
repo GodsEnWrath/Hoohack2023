@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-
+/* Home */
 .logo{
     background-image: url('assets/hoohacklogo3.png');
     background-size:contain;
@@ -51,7 +51,6 @@
     color: white;
     padding: 15px;
 }
-
 
 
 .weekly1{
@@ -111,3 +110,9 @@
     font-family:'Courier New', Courier, monospace;
 }
 
+/* Home end */
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }

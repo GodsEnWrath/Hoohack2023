@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
     <!-- Title -->
-   <title>Montly Analysis</title>
+   <title>Monthly Analysis</title>
 
    <!-- Favicon -->
    <link rel="icon" href="img/core-img/favicon.ico">
@@ -43,5 +43,39 @@
        <!--Navigation bar-->
        <div id="nav-placeholder"> </div>
        <!--Navigation bar end-->
-</body>
+       
+       <div>
+           <h1>Monthly Analysis</h1>
+           <h2>This month, the university* produced approximately 113,400 lbs of food waste.</h2>
+           <h4>*Calculated from 20,000 students, 800 faculty members</h4>
+           <div>
+               <canvas id="pieChartID"></canvas>
+           </div>
+       </div>
+
+       <script>
+           new Chart($("#pieChartID"), {
+               type: 'pie',
+               options: {
+                   legend: {
+                       display: true
+                   },
+                   indexAxis: 'x',
+                   title: {
+                       display: true,
+                       text: 'Food waste monthly pie chart'
+                   }
+               },
+               data: {
+                   labels: ["Week 1", "Week 2", "Week 3", "Week 4"],
+                   datasets: [{
+                       label: "Food Waste produced by Univsersity",
+                       backgroundColor: ["#FF3933", "#0000FF",
+                           "#00C020", "#FDE924"],
+                       data: [234, 356, 819, 732]
+                   }]
+               }
+           });
+       </script>
+   </body>
 </html>

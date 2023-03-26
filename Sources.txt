@@ -1,1 +1,4 @@
 https://getbootstrap.com/docs/5.3/getting-started/introduction/
+https://www.chartjs.org/docs/latest/
+--initial design
+https://www.figma.com/file/i4IGmMNPtINkr8ukyLYT4p/Untitled?node-id=1%3A26&t=COv0HNcrodle09Gz-1

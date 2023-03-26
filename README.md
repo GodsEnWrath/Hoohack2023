@@ -15,10 +15,10 @@ To increase sustainability
 - a voting system by student and staff for next weeks menu. 
 - data for office of sustainability to use to cut servings on unpopular meals and add servings in popular meals.
 
-##How to start
+## How to start
 - Please install Live server extension in Visual studios and launch the code using it
 
-#About the project
+# About the project
 
 ## Inspiration
 We took inspiration from the UN SDG 2 (Zero Hunger), UVA's 2020 Sustainability Plan to reduce waste to 30%, as well as the amount of food waste that we saw at the event itself. So we decided to tackle food waste during the HooHacks 2023 event.

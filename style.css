@@ -164,7 +164,7 @@
 
 /* Weekly page */
 .weekly-menu1{
-    background-color: #1D3D3B;
+    background-color: #07A897;
     align-items: center;
     color: white;
     height: 40vh;
@@ -344,3 +344,12 @@
 }
 
 /* about us end*/
+
+/* vote*/
+.vote-banner {
+    background-color: #1981A4;
+    align-items: center;
+    color: white;
+    height: 40vh;
+}
+/* vote end*/

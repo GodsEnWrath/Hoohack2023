@@ -1,66 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Title -->
-      <title>Login</title>
+    <!-- Title -->
+    <title>Login</title>
 
-      <!-- Favicon -->
-      <link rel="icon" href="img/core-img/favicon.ico">
-  
-      <!-- Bootstrap -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-  
-      <!-- jquery -->
-      <script
-      src="https://code.jquery.com/jquery-3.6.4.min.js"
-      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
-      crossorigin="anonymous"></script>
-     
-      
-      <!-- Core Stylesheet -->
-      <link href="style.css" rel="stylesheet">
-  
-      <!-- Responsive CSS -->
-      <link href="css/responsive.css" rel="stylesheet">
-  
-  
-      <!--Navigation bar Load-->
-          <script>
-          $(function(){
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+
+    <!--Navigation bar Load-->
+    <script>
+        $(function() {
             $("#nav-placeholder").load("navbar.html");
-          });
-          </script>
-      <!--Navigation bar Load-->
-      
-      </head>
-      <body>       
-  
-          <!--Navigation bar-->
-          <div id="nav-placeholder"> </div>
-          <!--Navigation bar end-->
-          
-          <!--Sign in form-->
-          <h4 style="text-align: center; color: white; background-color: black;">Sign in to your account</h4>
+        });
+    </script>
+    <!--Navigation bar Load-->
+
+    <style>
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--Navigation bar-->
+    <div id="nav-placeholder"> </div>
+    <!--Navigation bar end-->
+
+    <!--Sign in form-->
+    <h4 style="text-align: center; color: white; background-color: black;">Sign in to your account</h4>
+    <br>
+    <div style="text-align: center;">
+        <img src="https://imgs.search.brave.com/fEPD4fT4QKnLvHsqWNRFlvtiZZzxqOSWOBRQqzbGNB8/rs:fit:1200:1200:1/g:ce/aHR0cDovL3BsdXNw/bmcuY29tL2ltZy1w/bmcvdXNlci1wbmct/aWNvbi1iaWctaW1h/Z2UtcG5nLTIyNDAu/cG5n" style="width: 20vh;">
+    </div>
+    <form action="/action_page.php" method="post">
+        <div class="container">
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username" required>
             <br>
-            <form action="/action_page.php" method="post">
-                <div class="container" style="text-align: center">
-                    <label for="username"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" name="username" required>
-                    <br>
-                    <br>
-                    <label for="password"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="password" required>
-                    <br>
-                    <span class="password">Forgot <a href="#">password?</a></span>
-                    <br>
-                    <br>
-                    <button type="submit">Login</button>
-                </div>
-            </form>
-          <!--Sign in form-->
-    </body>
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <br>
+            <span class="password"><a href="#">Forgot password?</a></span>
+            <br>
+            <br>
+            <button type="submit">Login</button>
+        </div>
+    </form>
+    <!--Sign in form-->
+</body>
+
 </html>

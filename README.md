@@ -14,3 +14,6 @@ To raise awareness
 To increase sustainability
 - a voting system by student and staff for next weeks menu. 
 - data for office of sustainability to use to cut servings on unpopular meals and add servings in popular meals.
+
+##How to start
+- Please install Live server extension in Visual studios and launch the code using it

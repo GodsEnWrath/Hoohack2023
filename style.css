@@ -1,3 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .quotes{
     background-color: aliceblue;
+}
+
+.logo{
+    background-image: url('assets/hoohacklogo3.png');
+    background-size:contain;
+    background-color: white;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.header-text{
+font-family: Georgia, 'Times New Roman', Times, serif;
+height: 23vh;
+background-color: gray;
+align-items: center;
+}
+
+.headertext-img{
+    opacity: 0.5;
+    background-color: white;
+    background-size: cover;
+    color: green;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
 }

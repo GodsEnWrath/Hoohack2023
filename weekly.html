@@ -43,13 +43,19 @@
         }
 
         #days tr:nth-child(even) {
-            background-color: #f2f2f2;
+            background-color: #5C7B51;
+            color: white;
+        }
+        
+        #days tr:nth-child(odd) {
+            background-color: #1D6C6C;
+            color: white;
         }
 
         #days th {
             padding-top: 12px;
             padding-bottom: 12px;
-            background-color: black;
+            background-color: #1D6C6C;
             color: white;
         }
     </style>
@@ -63,8 +69,8 @@
     <!--Navigation bar end-->
 
     <!--Weekly menu-->
-    <h1 style="text-align: center; background-color: black; color: white;">Weekly Menu</h1>
-    <h4 style="text-align: center;">Based on popular demand, the menu this week will be as follows:</h4>
+    <h1 class="header-text" style="height: auto;">Weekly Menu</h1>
+    <h4 class="quotes" style="height: auto;">Based on popular demand, the menu this week will be as follows:</h4>
     <table style="text-align: center; margin-left: auto; margin-right: auto;" id="days">
         <tr>
             <th>Monday</th>

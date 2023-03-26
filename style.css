@@ -62,15 +62,52 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.weekly2{
+    background-color: #496A9B;
+    align-items: center;
+    color: white;
+    height: 30vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.weekly3{
+    background-color: #015460;
+    align-items: center;
+    color: white;
+    height: 30vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quotes-end{
+    background-color: #519F6C;
+    align-items: center;
+    color: white;
+    height: 40vh;
+}
+
+.quotes-end h3 {
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
 .contact-us{
     background-color: white;
     height: 20vh;
-    padding: 10px;
+    padding: 50px 0 150px 0;
     font-style: italic;
     font-family:'Courier New', Courier, monospace;
 }
 
 .github-img {
-    width: 50px;
+    width: 40px;
     
 }
+
+.footer {
+    background-color: gray;
+    height: 15vh;
+    align-items:end;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
